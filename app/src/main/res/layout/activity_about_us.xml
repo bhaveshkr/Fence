@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/activity_about_us"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:paddingBottom="@dimen/activity_vertical_margin"
+  android:paddingLeft="@dimen/activity_horizontal_margin"
+  android:paddingRight="@dimen/activity_horizontal_margin"
+  android:paddingTop="@dimen/activity_vertical_margin"
+  tools:context="com.bhavesh.fence.AboutUS">
+
+  <android.support.v7.widget.AppCompatTextView
+    android:id="@+id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:text="Fence has been developed for the people to protect vehicle or any kind of things which scares us to get stolen."
+    android:textAlignment="viewStart" />
+
+  <android.support.v7.widget.AppCompatTextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/text2"
+    android:text="It detects the movement in object and starts sending text message to the registered mobile and also alarm of Fence can be activated using sending these commands as text message on Fence device 1. fence start to start the alarm and 2. fence stop to stop the alarm."
+    android:layout_marginTop="11dp"
+    android:layout_below="@+id/text1"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:textAlignment="viewStart" />
+
+  <android.support.v7.widget.AppCompatTextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/text3"
+    android:text="For any queries, send email at [mail.fence@gmail.com]."
+    android:layout_marginTop="15dp"
+    android:layout_below="@+id/text2"
+    android:layout_alignParentStart="true"
+    android:textAlignment="viewStart"
+    android:textStyle="normal|italic" />
+
+  <ImageView android:id="@+id/splashscreen"
+    android:layout_width="match_parent"
+    android:layout_height="100px"
+    android:src="@drawable/makeinindia"
+    android:layout_gravity="center_horizontal"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true" />
+
+
+
+
+
+
+</RelativeLayout>

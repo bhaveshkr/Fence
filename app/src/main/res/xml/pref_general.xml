@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <EditTextPreference
+    android:capitalize="words"
+    android:defaultValue=""
+    android:inputType="number"
+    android:maxLength="10"
+    android:key="phoneNumber"
+    android:maxLines="1"
+    android:selectAllOnFocus="true"
+    android:singleLine="true"
+    android:title="@string/pref_title_mobile" />
+
+  <EditTextPreference
+    android:capitalize="words"
+    android:defaultValue="@string/pref_title_device"
+    android:inputType="text"
+    android:key="deviceName"
+    android:maxLines="1"
+    android:selectAllOnFocus="true"
+    android:singleLine="true"
+    android:title="@string/pref_title_device" />
+
+</PreferenceScreen>
